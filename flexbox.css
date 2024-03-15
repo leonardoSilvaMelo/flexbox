@@ -38,7 +38,15 @@
 
 .menu li{
     list-style: none;
-    margin-left: 10px; 
+    margin-left: 40px; 
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(https://pbs.twimg.com/media/GAyeMZ9bcAASAyY?format=jpg&name=4096x4096);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -65,7 +73,11 @@ h1{
 }
 
 .flexbox div{
-    margin: 10px;/*Dando um espaçamento das margens superior, laterais*/
+    margin: 20px;/*Dando um espaçamento das margens superior, laterais*/
+}
+
+.flexbox p{
+    margin-top: 10px;
 }
 
 .Sobre{
@@ -106,7 +118,7 @@ h1{
 
 .rodape i{
     color: goldenrod;
-    font-size: 25px;
+    font-size: 40px;
     margin-left: 10px;
     padding: 10px;
 }
