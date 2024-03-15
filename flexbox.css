@@ -1,20 +1,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'gow'; 
 }
 
-body{
-    background-image: url(https://pbs.twimg.com/media/GAyeMZ9bcAASAyY?format=jpg&name=4096x4096);
-    background-position: center;
-    
-    background-repeat: no-repeat;
-}
+@font-face {
+    font-family: 'gow';
+    src: url(./fontes/GODOFWAR.TTF);
+} 
 
 .header{
     display: flex;/*Alinhando itens lado a lado no Header*/
     justify-content: space-between;
     align-items: center;/*Alinhando itens na vertical*/
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(0, 24, 46);
     padding: 10px;
     flex-wrap: wrap;
 }
@@ -39,6 +38,75 @@ body{
 
 .menu li{
     list-style: none;
+    margin-left: 10px; 
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.flexbox{
+    display: flex;/*Colocando itens lado a lado*/
+    flex-wrap: wrap;/*Quebra de itens*/
+    max-width: 800px;/*Adaptação máxima dos conteúdos que estão dentro da section (div)*/
+    margin: 0 auto;/*Centralizando as divs*/
+    margin-bottom: 80px;/*Margin da parte inferior*/
+    text-align: center;
+    font-size: 18px;
+}
+
+.flexbox img{
+    max-width: 100%;/*Adaptação máxima da imagem na pagina dentro da div*/
+    display: block;/*Reforçando que minhas imagens estejam em formato de blocos*/
+    width: 220px; 
+    height: 282px;
+}
+
+.flexbox div{
+    margin: 10px;/*Dando um espaçamento das margens superior, laterais*/
+}
+
+.Sobre{
+    background-color: brown;
+    color: white;
+    padding: 80px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*Alinhando itens na vertical*/
+    padding: 50px;
+    background-color: rgb(0, 24, 46);
+}
+
+.rodape li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.rodape li{
+    list-style: none;
+}
+
+.informacoes{
+    display: flex;
+}
+
+.rodape li a:hover{
+    color: goldenrod;
+    transition: 0.8s;
+}
+
+.rodape i{
+    color: goldenrod;
+    font-size: 25px;
     margin-left: 10px;
-    
+    padding: 10px;
 }
